@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*
+        let dt   = new Date(1000);
+console.log("date is",dt);
+
+let dt1  = new Date("2029-12-3");
+console.log(dt1);
+
+let dt2  = new Date(2029,3,12,12,30,60,60);
+console.log(dt2);
+*/
+let newDate = new Date(2030,11,23,4,45,60,60);
+console.log(newDate);
+
+let mn   = newDate.getMonth();
+console.log(mn);
+let yr   = newDate.getDate();
+console.log(yr);
+let date   = newDate.getFullYear();
+console.log(date);
+let minute = newDate.getMinutes();
+console.log(minute);
+let second  = newDate.getSeconds();
+console.log(second);
+let milisecond  = newDate.getMilliseconds();
+console.log(milisecond);
+
+
+
+
+/*TO  SET THE DATE */
+newDate.setDate(1);
+console.log(newDate);
+
+function ut()
+{
+    time.innerHTML =new Date();
+}
+
+    </script>   
+</body>
+</html>
